@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/assets/app-icons/styles.css">
     <!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
     <!-- WEB FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet' type='text/css'>
 
     <!-- CAROUSEL AND LIGHTBOX -->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/owl.theme.css">
@@ -63,7 +63,7 @@
     <![endif]-->
 
     <!-- JQUERY -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 </head>
 
