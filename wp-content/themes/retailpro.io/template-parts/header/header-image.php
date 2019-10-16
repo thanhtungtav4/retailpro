@@ -16,13 +16,13 @@
             <!-- ONLY LOGO ON HEADER -->
             <div class="only-logo">
                 <div class="navbar">
-<!--                    <div class="navbar-header">-->
-<!--                        --><?php
-//                        $custom_logo_id = get_theme_mod( 'custom_logo' );
-//                        $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
-//                        ?>
-<!--                        <img src="--><?php //echo $image[0]; ?><!--" alt="">-->
-<!--                    </div>-->
+                    <div class="navbar-header">
+                        <?php
+                        $custom_logo_id = get_theme_mod( 'custom_logo' );
+                        $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+                        ?>
+                        <img src="<?php echo $image[0]; ?>" alt="" class="logo_banner">
+                    </div>
                 </div>
             </div> <!-- /END ONLY LOGO ON HEADER -->
 

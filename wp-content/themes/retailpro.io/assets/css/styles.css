@@ -704,7 +704,14 @@ object {
     padding-top: 110px;
     padding-bottom: 70px;
 }
-
+.logo_footer{
+     max-width: 500px;
+     height: auto;
+ }
+.logo_banner{
+    max-width: 300px;
+    height: auto;
+}
 .download .download-container {
     padding-bottom: 80px;
 }

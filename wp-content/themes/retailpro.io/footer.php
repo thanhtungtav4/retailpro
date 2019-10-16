@@ -72,22 +72,11 @@
         $custom_logo_id = get_theme_mod( 'custom_logo' );
         $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
         ?>
-        <img src="<?php echo $image[0]; ?>" alt="" class="responsive-img">
-
-        <!-- SOCIAL ICONS -->
-        <ul class="social-icons">
-            <li><a href=""><i class="social_facebook_square"></i></a></li>
-            <li><a href=""><i class="social_twitter_square"></i></a></li>
-            <li><a href=""><i class="social_pinterest_square"></i></a></li>
-            <li><a href=""><i class="social_googleplus_square"></i></a></li>
-            <li><a href=""><i class="social_instagram_square"></i></a></li>
-            <li><a href=""><i class="social_dribbble_square"></i></a></li>
-            <li><a href=""><i class="social_flickr_square"></i></a></li>
-        </ul>
+        <img src="<?php echo $image[0]; ?>" alt="" class="responsive-img logo_footer">
 
         <!-- COPYRIGHT TEXT -->
         <p class="copyright">
-            ©2014 Kane, All Rights Reserved
+            ©2019 DMS, All Rights Reserved
         </p>
 
     </div>
