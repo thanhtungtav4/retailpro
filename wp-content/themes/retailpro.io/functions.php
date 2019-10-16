@@ -636,7 +636,13 @@ function twentyseventeen_unique_id( $prefix = '' ) {
 	}
 	return $prefix . (string) ++$id_counter;
 }
-
+add_theme_support( 'custom-logo', array(
+    'height'      => 118,
+    'width'       => 53,
+    'flex-height' => true,
+    'flex-width'  => true,
+    'header-text' => array( 'site-title', 'site-description' ),
+) );
 /**
  * Implement the Custom Header feature.
  */

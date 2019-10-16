@@ -16,9 +16,13 @@
             <!-- ONLY LOGO ON HEADER -->
             <div class="only-logo">
                 <div class="navbar">
-                    <div class="navbar-header">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt="">
-                    </div>
+<!--                    <div class="navbar-header">-->
+<!--                        --><?php
+//                        $custom_logo_id = get_theme_mod( 'custom_logo' );
+//                        $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+//                        ?>
+<!--                        <img src="--><?php //echo $image[0]; ?><!--" alt="">-->
+<!--                    </div>-->
                 </div>
             </div> <!-- /END ONLY LOGO ON HEADER -->
 
@@ -50,7 +54,7 @@
 
                     <!-- PHONE IMAGE WILL BE HIDDEN IN TABLET PORTRAIT AND MOBILE-->
                     <div class="phone-image">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/images/2-iphone-right.png" class="img-responsive" alt="">
+<!--                        <img src="--><?php //bloginfo('template_url'); ?><!--/assets/images/2-iphone-right.png" class="img-responsive" alt="">-->
                     </div>
 
                 </div>

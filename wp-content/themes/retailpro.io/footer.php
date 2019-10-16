@@ -68,7 +68,11 @@
         <!-- /END CONTACT BOX -->
 
         <!-- LOGO -->
-        <img src="<?php bloginfo('template_url'); ?>/assets/images/logo-black.png" alt="LOGO" class="responsive-img">
+        <?php
+        $custom_logo_id = get_theme_mod( 'custom_logo' );
+        $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+        ?>
+        <img src="<?php echo $image[0]; ?>" alt="" class="responsive-img">
 
         <!-- SOCIAL ICONS -->
         <ul class="social-icons">

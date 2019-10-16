@@ -11,7 +11,11 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#"><img src="<?php bloginfo('template_url'); ?>/assets/images/logo-black.png" alt=""></a>
+            <a class="navbar-brand" href="<?php echo get_home_url(); ?>">   <?php
+                $custom_logo_id = get_theme_mod( 'custom_logo' );
+                $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+                ?>
+                <img src="<?php echo $image[0]; ?>" alt=""></a>
 
         </div>
 
